@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="chat-container">
+      <div class="chat-header">
+        Chat
+        <img
+          src="https://image.flaticon.com/icons/png/128/992/992683.png"
+          alt="minus"
+        />
+      </div>
+      <div class="chat-messages">
+        <!-- {messages.map((message) => (
+            <div
+              class={
+                messages.self
+                   'chat-bubble self-chat' 
+                  : 'chat-bubble other-chat'
+              }
+            >
+              {message.content}
+            </div>
+          ))} -->
+      </div>
+      <div class="chat-footer">
+        <input type="text" id="typedMsg" />
+        <button type="submit" id="send-btn">Send</button>
+      </div>
+    </div>
+  </body>
+  <script src="../jq/jquery-3.6.0.js"></script>
+  <script src="script.js"></script>
+</html>
